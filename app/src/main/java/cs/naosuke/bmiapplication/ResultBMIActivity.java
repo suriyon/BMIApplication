@@ -49,7 +49,7 @@ public class ResultBMIActivity extends AppCompatActivity {
             imgBMI.setImageResource(R.drawable._overweight);
         }else {
             result = "BMI: " + bmi + " -> Obesity";
-            suggestion = "อ้วนเกินไปแล้ว เสี่ยงเกิดโรคที่จะตามมาจากความอ้วน";
+            suggestion = "อ้วนเกินไปแล้วนะ เสี่ยงเกิดโรคที่จะตามมาจากความอ้วน";
             imgBMI.setImageResource(R.drawable._obisity);
         }
         tvResult.setText(result);
